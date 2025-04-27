@@ -8,7 +8,7 @@ import { useState, type FormEvent, useEffect } from "react"
 const products = [
   {
     name: "Modern TV Stand",
-    price: "₦55,000 – ₦60,000",
+    price: "₦55,000 – ₦70,000",
     description:
       "Stylish TV stand with multiple compartments for storage. Made with high-quality plywood and laminate finish. Perfect for any living room.",
     link: "https://wa.me/p/8993100260774904/2349070065541",
