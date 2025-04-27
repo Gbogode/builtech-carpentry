@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hover\:glow-green-500:hover {
+    box-shadow: 0 0 5px theme("colors.green.500"), 0 0 10px theme("colors.green.500"), 0 0 15px
+      theme("colors.green.500");
+  }
+
+  .hover\:glow-blue-500:hover {
+    box-shadow: 0 0 5px theme("colors.blue.500"), 0 0 10px theme("colors.blue.500"), 0 0 15px theme("colors.blue.500");
+  }
+
+  .hover\:glow-\[\#8B4513\]:hover {
+    box-shadow: 0 0 5px #8b4513, 0 0 10px #8b4513, 0 0 15px #8b4513;
+  }
+}
+
